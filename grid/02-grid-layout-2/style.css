@@ -51,8 +51,23 @@ html {
 }
 .container{
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows:1fr 1fr 5fr 1fr ;
-  gap: 15px;
+  gap: 4px;
 
+}
+.header{
+  grid-column: 2fr 2fr;
+}
+.menu li{
+  display: grid;
+}
+.nav li{
+  display: grid;
+}
+.sidebar{
+  gap: 50PX;
+}
+.article{
+  
 }
